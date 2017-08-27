@@ -1,10 +1,10 @@
 {
-    "name": "vcu/siteimprove",
+    "name": "samyerkes/siteimprove",
     "description": "A wrapper around the SiteImprove API",
     "authors": [
         {
             "name": "Samuel Yerkes",
-            "email": "syerkes@vcu.edu"
+            "email": "samuelyerkes@gmail.com"
         }
     ],
     "minimum-stability": "dev",

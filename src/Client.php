@@ -1,6 +1,6 @@
 <?php
 
-namespace VCU\SiteImprove;
+namespace SamYerkes\SiteImprove;
 
 class Client
 {

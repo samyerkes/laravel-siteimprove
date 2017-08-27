@@ -1,8 +1,8 @@
 <?php
 
-namespace VCU\SiteImprove;
+namespace SamYerkes\SiteImprove;
 
-use VCU\SiteImprove\Client;
+use SamYerkes\SiteImprove\Client;
 
 class Siteimprove
 {
