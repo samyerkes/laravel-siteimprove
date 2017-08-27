@@ -1,6 +1,6 @@
 <?php
 
-namespace VCU\SiteImprove;
+namespace SamYerkes\SiteImprove;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -25,6 +25,6 @@ class SiteImproveServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('VCU\SiteImprove\SiteImprove');
+        $this->app->make('SamYerkes\SiteImprove\SiteImprove');
     }
 }

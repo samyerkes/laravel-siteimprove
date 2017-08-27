@@ -1,4 +1,4 @@
-# Laravel SiteImprove Wrapper [wip]
+# Laravel SiteImprove Wrapper [WIP]
 
 ## Installation
 
@@ -13,7 +13,7 @@ You must install this service provider.
 // config/app.php
 'providers' => [
     ...
-    VCU\SiteImprove\SiteImproveServiceProvider::class,
+    SamYerkes\SiteImprove\SiteImproveServiceProvider::class,
     ...
 ];
 ```
@@ -21,13 +21,13 @@ You must install this service provider.
 Then you'll need to publish the config file of this package with this command:
 
 ``` bash
-php artisan vendor:publish --provider="VCU\SiteImprove\SiteImproveServiceProvider"
+php artisan vendor:publish --provider="SamYerkes\SiteImprove\SiteImproveServiceProvider"
 ```
 
 ## Usage
 
 ``` php
-$siteImprove = new VCU\SiteImprove\Siteimprove;
+$siteImprove = new SamYerkes\SiteImprove\Siteimprove;
 $allSites = $siteImprove->all();
 $individualSite = $siteImprove->find(1351616669);
 $individualSiteAccessibilitySummary = $siteImprove->accessibilitySummary(1351616669);
